@@ -14,21 +14,21 @@ Discord Developer Portal | https://discord.com/developers/applications
 
 # Instruction to run the Bot on an linux machine:
 
->1. Install the bot and update the machine
+>1. Install the bot and update the machine </br>
 `git clone https://github.com/MustafaSataric/ServerStatus-Bot` </br>
 `sudo apt-get update && sudo apt-get upgrade` </br>
 `cd /ServerStatus-Bot`
 
->2. Install Node JS
+>2. Install Node JS </br>
 `sudo apt-get install nodejs`
 
->3. Check Node JS installation, if it doesn't work you have to fix it to launch the bot.
+>3. Check Node JS installation, if it doesn't work you have to fix it to launch the bot. </br>
 `node -v`
 
->4. Now you have to install pm2 to run the bot in the background
+>4. Now you have to install pm2 to run the bot in the background </br>
 `npm install pm2 -g`
 
->5. Now you have to run the index.js 
+>5. Now you have to run the index.js </br>
 `pm2 start index.js`
 
 
