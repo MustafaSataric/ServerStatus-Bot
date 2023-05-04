@@ -1,4 +1,4 @@
-# FiveM-Status-Discord-Bot by Zofux
+# FiveM-Status-Discord-Bot by Mustafa
  
 
 # Do not put this in your server resources, this is ment to run outside of your server and will not work if you try to run it of your server
@@ -6,12 +6,31 @@
 FiveM server status bot, this will display how many users are online in your server thru the status of a discord bot.
 Please try to find out why your code is not working your self before trying to contact me because this a really simply project and should not be hard to understand.
 
-Stuff you should have installed and other usefull links | To run the code use the command "node ." in the command line.
+# Instruction to set up the Bot
 
-Node.js is used to let javascript run on it's own | https://nodejs.org/en/
-
-Visual Studio code is used to edit our code | https://code.visualstudio.com/download
+Open the config.json file add your Bot Token, Servername, Server IP and Ports you can find it here:
 
 Discord Developer Portal | https://discord.com/developers/applications
 
-If you want a step by step tutorial here is a video  https://www.youtube.com/watch?v=9TCCDHT1cTY
+# Instruction to run the Bot on an linux machine:
+
+1. Install the bot and update the machine
+>git clone https://github.com/MustafaSataric/ServerStatus-Bot
+>sudo apt-get update && sudo apt-get upgrade
+>cd /ServerStatus-Bot
+
+2. Install Node JS
+>sudo apt-get install nodejs
+
+3. Check Node JS installation, if it doesn't work you have to fix it to launch the bot.
+>node -v
+
+4. Now you have to install pm2 to run the bot in the background
+>npm install pm2 -g
+
+5. Now you have to run the index.js 
+>pm2 start index.js
+
+
+
+
