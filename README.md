@@ -14,4 +14,4 @@ Visual Studio code is used to edit our code | https://code.visualstudio.com/down
 
 Discord Developer Portal | https://discord.com/developers/applications
 
-If you want a step by step tutorial here is a video a made https://www.youtube.com/watch?v=9TCCDHT1cTY
+If you want a step by step tutorial here is a video  https://www.youtube.com/watch?v=9TCCDHT1cTY
